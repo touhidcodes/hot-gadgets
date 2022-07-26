@@ -11,7 +11,175 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <!-- navbar -->
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <div class="col-md-8">
+        <img src="images/background/logo.png" alt="">
+        </div>
+        <div class="col-md-4">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </div>
+  <!-- carousel -->
+  <div class="carousel-bg">
+   <div class="container car-bg">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="##carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- carousel 1 -->
+        <div class="carousel-item active">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1>Mackbook Pro</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, numquam tempora. Maiores laudantium quam dignissimos exercitationem quidem!</p>
+            <button type="button" class="btn btn-dark">Buy Now ></button>
+          </div>
+          <div class="col-md-6"> 
+            <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        </div>
+       
+        <!-- carousel 2 -->
+        <div class="carousel-item">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1>Google Home Smart Assistant</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt molestiae libero fuga esse iste debitis ipsam quis accusantium exercitationem saepe.</p>
+            <button type="button" class="btn btn-dark">Buy Now ></button>
+          </div>
+          <div class="col-md-6">
+              <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        
+        <!-- carousel3 -->
+        <div class="carousel-item">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1>JBL Smart Speaker</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum non fuga repellendus quos accusantium incidunt assumenda nam labore?</p>
+            <button type="button" class="btn btn-dark">Buy Now ></button>
+          </div>
+          <div class="col-md-6">
+              <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   </div>
+  </div>
+  <!-- card title -->
+      <div class="container" id="products">
+        <div class="d-flex justify-content-between">
+          <h3 class="title">Smartphone</h3>
+          <h6 class="see-all">See All</h6>
+        </div>
+      </div>
+  <!-- smartphone card -->
+  <div class="container card-s d-flex align-items-center">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- smartphone Card 1 -->
+      <div class="col">
+        <div class="card h-100 d-flex align-items-center">
+          <img
+            src="images/phone/phone-2.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">iPhone 11 Pro</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              porro cumque ex nulla esse reiciendis!
+            </p>
+          </div>
+          <div class="text-center">
+            <h3 class="price">$999</h3>
+            <button class="btn-dark btn">Buy Now ></button>
+          </div>
+        </div>
+      </div>
+      <!-- smartphone Card 2 -->
+      <div class="col">
+        <div class="card h-100 d-flex align-items-center">
+          <img
+            src="images/phone/phone-3.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Samsung Galaxy Note 10+</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Officia, consequuntur.
+            </p>
+          </div>
+          <div class="text-center">
+            <h3 class="price">$799</h3>
+            <button class="btn-dark btn">Buy Now ></button>
+          </div>
+        </div>
+      </div>
+      <!-- smartphone Card 3 -->
+      <div class="col">
+        <div class="card h-100 d-flex align-items-center">
+          <img
+            src="images/phone/phone-1.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Redmi 9i</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Tempora numquam, esse quia eum omnis quidem enim.
+            </p>
+            </div>
+            <div class="text-center">
+            <h3 class="price">$699</h3>
+            <button class="btn-dark btn">Buy Now ></button>
+          </div>
+        </div>
+      </div>
+      <!-- Shoes Card End -->
+    </div>
+  </div>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
